@@ -8,12 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		573BE7671A17C0350057C5E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573BE7661A17C0350057C5E7 /* AppDelegate.swift */; };
-		573BE7691A17C0350057C5E7 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573BE7681A17C0350057C5E7 /* FirstViewController.swift */; };
-		573BE76B1A17C0350057C5E7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573BE76A1A17C0350057C5E7 /* SecondViewController.swift */; };
 		573BE76E1A17C0350057C5E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 573BE76C1A17C0350057C5E7 /* Main.storyboard */; };
 		573BE7701A17C0350057C5E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 573BE76F1A17C0350057C5E7 /* Images.xcassets */; };
 		573BE7731A17C0350057C5E7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 573BE7711A17C0350057C5E7 /* LaunchScreen.xib */; };
 		573BE77F1A17C0350057C5E7 /* everpressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573BE77E1A17C0350057C5E7 /* everpressTests.swift */; };
+		5783D5361A227A0D0029CCAF /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5783D5351A227A0D0029CCAF /* HomeTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,14 +29,13 @@
 		573BE7611A17C0350057C5E7 /* everpress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = everpress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		573BE7651A17C0350057C5E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		573BE7661A17C0350057C5E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		573BE7681A17C0350057C5E7 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		573BE76A1A17C0350057C5E7 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		573BE76D1A17C0350057C5E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		573BE76F1A17C0350057C5E7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		573BE7721A17C0350057C5E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		573BE7781A17C0350057C5E7 /* everpressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = everpressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		573BE77D1A17C0350057C5E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		573BE77E1A17C0350057C5E7 /* everpressTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = everpressTests.swift; sourceTree = "<group>"; };
+		5783D5351A227A0D0029CCAF /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				573BE7661A17C0350057C5E7 /* AppDelegate.swift */,
-				573BE7681A17C0350057C5E7 /* FirstViewController.swift */,
-				573BE76A1A17C0350057C5E7 /* SecondViewController.swift */,
+				5783D5351A227A0D0029CCAF /* HomeTableViewController.swift */,
 				573BE76C1A17C0350057C5E7 /* Main.storyboard */,
 				573BE76F1A17C0350057C5E7 /* Images.xcassets */,
 				573BE7711A17C0350057C5E7 /* LaunchScreen.xib */,
@@ -215,9 +212,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				573BE76B1A17C0350057C5E7 /* SecondViewController.swift in Sources */,
+				5783D5361A227A0D0029CCAF /* HomeTableViewController.swift in Sources */,
 				573BE7671A17C0350057C5E7 /* AppDelegate.swift in Sources */,
-				573BE7691A17C0350057C5E7 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +405,7 @@
 				573BE7841A17C0350057C5E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		573BE7851A17C0350057C5E7 /* Build configuration list for PBXNativeTarget "everpressTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +414,7 @@
 				573BE7871A17C0350057C5E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
