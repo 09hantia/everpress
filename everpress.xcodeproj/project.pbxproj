@@ -230,6 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27F616DC1A297EB400F9DA98 /* ProductCategoryViewController.swift in Sources */,
 				5783D5361A227A0D0029CCAF /* HomeTableViewController.swift in Sources */,
 				57307C0B1A26C91E000D6DD3 /* SenderDetailTableViewController.swift in Sources */,
 				573BE7671A17C0350057C5E7 /* AppDelegate.swift in Sources */,
