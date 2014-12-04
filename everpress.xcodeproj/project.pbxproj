@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27D96F351A2D63CC0022A1D4 /* SendLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D96F341A2D63CC0022A1D4 /* SendLocationViewController.swift */; };
+		27F616DA1A296FFC00F9DA98 /* SenderDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F616D91A296FFC00F9DA98 /* SenderDetailTableViewController.swift */; };
+		27F616DC1A297EB400F9DA98 /* ProductCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F616DB1A297EB400F9DA98 /* ProductCategoryViewController.swift */; };
 		573BE7671A17C0350057C5E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573BE7661A17C0350057C5E7 /* AppDelegate.swift */; };
 		573BE76E1A17C0350057C5E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 573BE76C1A17C0350057C5E7 /* Main.storyboard */; };
 		573BE7701A17C0350057C5E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 573BE76F1A17C0350057C5E7 /* Images.xcassets */; };
@@ -26,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27D96F341A2D63CC0022A1D4 /* SendLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendLocationViewController.swift; sourceTree = "<group>"; };
+		27F616D91A296FFC00F9DA98 /* SenderDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SenderDetailTableViewController.swift; sourceTree = "<group>"; };
+		27F616DB1A297EB400F9DA98 /* ProductCategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCategoryViewController.swift; sourceTree = "<group>"; };
 		573BE7611A17C0350057C5E7 /* everpress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = everpress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		573BE7651A17C0350057C5E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		573BE7661A17C0350057C5E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +85,9 @@
 			children = (
 				573BE7661A17C0350057C5E7 /* AppDelegate.swift */,
 				5783D5351A227A0D0029CCAF /* HomeTableViewController.swift */,
+				27F616D91A296FFC00F9DA98 /* SenderDetailTableViewController.swift */,
+				27F616DB1A297EB400F9DA98 /* ProductCategoryViewController.swift */,
+				27D96F341A2D63CC0022A1D4 /* SendLocationViewController.swift */,
 				573BE76C1A17C0350057C5E7 /* Main.storyboard */,
 				573BE76F1A17C0350057C5E7 /* Images.xcassets */,
 				573BE7711A17C0350057C5E7 /* LaunchScreen.xib */,
@@ -212,8 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27F616DC1A297EB400F9DA98 /* ProductCategoryViewController.swift in Sources */,
 				5783D5361A227A0D0029CCAF /* HomeTableViewController.swift in Sources */,
 				573BE7671A17C0350057C5E7 /* AppDelegate.swift in Sources */,
+				27F616DA1A296FFC00F9DA98 /* SenderDetailTableViewController.swift in Sources */,
+				27D96F351A2D63CC0022A1D4 /* SendLocationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
