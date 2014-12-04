@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57307C0B1A26C91E000D6DD3 /* SenderDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57307C0A1A26C91E000D6DD3 /* SenderDetailTableViewController.swift */; };
+		57307C0F1A26CA0F000D6DD3 /* TimeChoosenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57307C0E1A26CA0F000D6DD3 /* TimeChoosenViewController.swift */; };
 		573BE7671A17C0350057C5E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573BE7661A17C0350057C5E7 /* AppDelegate.swift */; };
 		573BE76E1A17C0350057C5E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 573BE76C1A17C0350057C5E7 /* Main.storyboard */; };
 		573BE7701A17C0350057C5E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 573BE76F1A17C0350057C5E7 /* Images.xcassets */; };
 		573BE7731A17C0350057C5E7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 573BE7711A17C0350057C5E7 /* LaunchScreen.xib */; };
 		573BE77F1A17C0350057C5E7 /* everpressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573BE77E1A17C0350057C5E7 /* everpressTests.swift */; };
+		573FF5D21A2C0A1A0027AB3E /* SenderLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573FF5D11A2C0A1A0027AB3E /* SenderLocationViewController.swift */; };
 		5783D5361A227A0D0029CCAF /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5783D5351A227A0D0029CCAF /* HomeTableViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		57307C0A1A26C91E000D6DD3 /* SenderDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SenderDetailTableViewController.swift; path = ../SenderDetailTableViewController.swift; sourceTree = "<group>"; };
+		57307C0E1A26CA0F000D6DD3 /* TimeChoosenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeChoosenViewController.swift; sourceTree = "<group>"; };
 		573BE7611A17C0350057C5E7 /* everpress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = everpress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		573BE7651A17C0350057C5E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		573BE7661A17C0350057C5E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -35,6 +40,7 @@
 		573BE7781A17C0350057C5E7 /* everpressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = everpressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		573BE77D1A17C0350057C5E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		573BE77E1A17C0350057C5E7 /* everpressTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = everpressTests.swift; sourceTree = "<group>"; };
+		573FF5D11A2C0A1A0027AB3E /* SenderLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SenderLocationViewController.swift; sourceTree = "<group>"; };
 		5783D5351A227A0D0029CCAF /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,6 +62,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57307C0D1A26C987000D6DD3 /* VewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				57307C0A1A26C91E000D6DD3 /* SenderDetailTableViewController.swift */,
+				5783D5351A227A0D0029CCAF /* HomeTableViewController.swift */,
+				57307C0E1A26CA0F000D6DD3 /* TimeChoosenViewController.swift */,
+				573FF5D11A2C0A1A0027AB3E /* SenderLocationViewController.swift */,
+			);
+			name = VewControllers;
+			sourceTree = "<group>";
+		};
 		573BE7581A17C0340057C5E7 = {
 			isa = PBXGroup;
 			children = (
@@ -78,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				573BE7661A17C0350057C5E7 /* AppDelegate.swift */,
-				5783D5351A227A0D0029CCAF /* HomeTableViewController.swift */,
+				57307C0D1A26C987000D6DD3 /* VewControllers */,
 				573BE76C1A17C0350057C5E7 /* Main.storyboard */,
 				573BE76F1A17C0350057C5E7 /* Images.xcassets */,
 				573BE7711A17C0350057C5E7 /* LaunchScreen.xib */,
@@ -161,6 +178,7 @@
 				TargetAttributes = {
 					573BE7601A17C0340057C5E7 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 6LD2VUUQ94;
 					};
 					573BE7771A17C0350057C5E7 = {
 						CreatedOnToolsVersion = 6.1;
@@ -213,7 +231,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5783D5361A227A0D0029CCAF /* HomeTableViewController.swift in Sources */,
+				57307C0B1A26C91E000D6DD3 /* SenderDetailTableViewController.swift in Sources */,
 				573BE7671A17C0350057C5E7 /* AppDelegate.swift in Sources */,
+				573FF5D21A2C0A1A0027AB3E /* SenderLocationViewController.swift in Sources */,
+				57307C0F1A26CA0F000D6DD3 /* TimeChoosenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,9 +357,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = everpress/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Debug;
 		};
@@ -346,9 +373,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = everpress/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
