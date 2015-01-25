@@ -78,10 +78,10 @@ class SenderLocationViewController: UIViewController, CLLocationManagerDelegate 
             latitudeLabel.text = currentLng
             
             
-            println(currentLat)
-            println(currentLng)
-            println(coord.latitude)
-            println(coord.longitude)
+            //println(currentLat)
+            //println(currentLng)
+            //println(coord.latitude)
+            //println(coord.longitude)
         }
     }
     
@@ -112,17 +112,17 @@ class SenderLocationViewController: UIViewController, CLLocationManagerDelegate 
 
     
     func locationUpdateScheduler(){
-        NSTimer.scheduledTimerWithTimeInterval(5, target: self, selector: Selector("handleTimer:"), userInfo: nil, repeats: true)
+        NSTimer.scheduledTimerWithTimeInterval(60, target: self, selector: Selector("handleTimer:"), userInfo: nil, repeats: true)
     }
     
     func handleTimer(timer: NSTimer){
         locationManager.startUpdatingLocation()
-        longtitudeLabel.text = String(format: "%f",locationManager.location.coordinate.longitude)
-        latitudeLabel.text = String(format: "%f",locationManager.location.coordinate.latitude)
+        //longtitudeLabel.text = String(format: "%f",locationManager.location.coordinate.longitude)
+        //latitudeLabel.text = String(format: "%f",locationManager.location.coordinate.latitude)
 
-        println("location latitude: \(locationManager.location.coordinate.latitude)")
-        println("location longtitude: \(locationManager.location.coordinate.longitude)")
-        println("called")
+        //println("location latitude: \(locationManager.location.coordinate.latitude)")
+        //println("location longtitude: \(locationManager.location.coordinate.longitude)")
+        //println("called")
 
     }
     /*
